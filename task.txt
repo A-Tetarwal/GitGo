@@ -1,0 +1,21 @@
+REST API - JSON
+
+GET /users - List all users
+GET /users/1 - Get the user with ID 1
+GET /users/2 - Get the user with ID 2
+
+POST /users - Create new user
+
+PATCH /users/1 - edit the user with ID 1
+
+DELETE /users/1 - Delete the user with ID 1
+
+
+GITGO
+--------------------------------------------
+
+
+Return card(s) for requested platform(s) with requested feature(s).
+api for github data - https://api.github.com/users/USERNAME
+for leetcode contests - https://leetcode.com/graphql?query={userContestRanking(username:"YOUR_USERNAME"){attendedContestsCount rating globalRanking totalParticipants topPercentage} userContestRankingHistory(username:"YOUR_USERNAME"){attended trendDirection problemsSolved totalProblems finishTimeInSeconds rating ranking contest{title startTime}}}
+for leetcode stats - https://leetcode-stats-api.herokuapp.com/USERNAME
